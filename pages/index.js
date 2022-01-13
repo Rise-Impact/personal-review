@@ -148,32 +148,32 @@ function index() {
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="5">5</label></div>
+                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="5">5</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1991908279" value="5" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="6">6</label></div>
+                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="6">6</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio"  name="entry.1991908279" value="6" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="7">7</label></div>
+                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="7">7</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1991908279" value="7" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="8">8</label></div>
+                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="8">8</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio"  name="entry.1991908279" value="8" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="9">9</label></div>
+                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="9">9</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1991908279" value="9" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="10">10</label></div>
+                      <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="10">10</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio"  name="entry.1991908279" value="10" /></div>
                     </div>
                     <div className="flex items-end">ถนัด-ชอบ-ทำได้ไว</div>
