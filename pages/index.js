@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import Popup from 'reactjs-popup'
+
 
 
 
@@ -51,54 +51,54 @@ function index() {
                 <div className="grid grid-cols-1 grid-rows-2  w-8" >
 
                   <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1711959127" value="1" /></div>
+                  <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center  w-6 h-6" type="radio" name="entry.1711959127" value="1" /></div>
 
 
                 </div>
 
                 <div className="grid grid-cols-1 grid-rows-2  w-8" >
                   <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="2">2</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1711959127" value="2" /></div>
+                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio"  name="entry.1711959127" value="2" /></div>
                 </div>
 
                 <div className="grid grid-cols-1 grid-rows-2  w-8" >
                   <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="3">3</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1711959127" value="3" /></div>
+                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1711959127" value="3" /></div>
                 </div>
 
                 <div className="grid grid-cols-1 grid-rows-2  w-8" >
                   <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="4">4</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1711959127" value="4" /></div>
+                  <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio"  name="entry.1711959127" value="4" /></div>
                 </div>
 
                 <div className="grid grid-cols-1 grid-rows-2  w-8" >
                   <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="5">5</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1711959127" value="5" /></div>
+                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio"  name="entry.1711959127" value="5" /></div>
                 </div>
 
                 <div className="grid grid-cols-1 grid-rows-2  w-8" >
                   <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="6">6</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1711959127" value="6" /></div>
+                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio"  name="entry.1711959127" value="6" /></div>
                 </div>
 
                 <div className="grid grid-cols-1 grid-rows-2  w-8" >
                   <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="7">7</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1711959127" value="7" /></div>
+                  <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="7" /></div>
                 </div>
 
                 <div className="grid grid-cols-1 grid-rows-2  w-8" >
                   <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="8">8</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1711959127" value="8" /></div>
+                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="8" /></div>
                 </div>
 
                 <div className="grid grid-cols-1 grid-rows-2  w-8" >
                   <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="9">9</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1711959127" value="9" /></div>
+                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio"  name="entry.1711959127" value="9" /></div>
                 </div>
 
                 <div className="grid grid-cols-1 grid-rows-2  w-8" >
                   <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="10">10</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1711959127" value="10" /></div>
+                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1711959127" value="10" /></div>
                 </div>
                 <div className="flex items-end">ภูมิใจมากที่สุด</div>
               </div>
@@ -107,7 +107,7 @@ function index() {
             <div className="mb-4 bg-transparent border-2 border-gray-400 rounded-lg p-1">
               
               <div className="flex justify-center">
-              <div className="">
+              <div >
                   <div className="flex justify-center"><label>Task/Project</label></div>
                   <input className="w-96 h-12 border-2 border-gray-400 rounded-lg " type="text" placeholder="Your Answer" name="entry.1796343255"/>
                 </div>
@@ -127,54 +127,54 @@ function index() {
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
 
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1991908279" value="1" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio"  name="entry.1991908279" value="1" /></div>
 
 
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="2">2</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1991908279" value="2" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1991908279" value="2" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="3">3</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1991908279" value="3" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio"  name="entry.1991908279" value="3" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="4">4</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1991908279" value="4" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio"  name="entry.1991908279" value="4" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="5">5</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1991908279" value="5" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1991908279" value="5" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="6">6</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1991908279" value="6" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio"  name="entry.1991908279" value="6" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="7">7</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1991908279" value="7" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1991908279" value="7" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="8">8</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1991908279" value="8" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio"  name="entry.1991908279" value="8" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="9">9</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1991908279" value="9" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1991908279" value="9" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " for="10">10</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1991908279" value="10" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio"  name="entry.1991908279" value="10" /></div>
                     </div>
                     <div className="flex items-end">ถนัด-ชอบ-ทำได้ไว</div>
                   </div>
@@ -216,54 +216,54 @@ function index() {
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
 
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1140167113" value="1" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio"  name="entry.1140167113" value="1" /></div>
 
 
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="2">2</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1140167113" value="2" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio"  name="entry.1140167113" value="2" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="3">3</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1140167113" value="3" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1140167113" value="3" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="4">4</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1140167113" value="4" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.1140167113" value="4" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="5">5</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1140167113" value="5" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1140167113" value="5" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="6">6</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1140167113" value="6" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1140167113" value="6" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="7">7</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1140167113" value="7" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.1140167113" value="7" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="8">8</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1140167113" value="8" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1140167113" value="8" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="9">9</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1140167113" value="9" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1140167113" value="9" /></div>
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="10">10</label></div>
-                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center " type="radio" className="w-6 h-6 " name="entry.1140167113" value="10" /></div>
+                      <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1140167113" value="10" /></div>
                     </div>
                     <div className="flex items-end">ถนัด-ชอบ-ทำได้ไว</div>
                   </div>
@@ -304,19 +304,19 @@ function index() {
               <div className="flex w-max bg-gray-100 p-2">
                 <div className="flex items-center w-32">Achieve Result: ความสามารถในการทำงานให้สำเร็จ โดยเน้นไปที่ Output ของงาน</div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1141969149" value="0 = ทำไม่ได้เลย" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1141969149" value="0 = ทำไม่ได้เลย" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1141969149" value="1 = ทำได้น้อยมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1141969149" value="1 = ทำได้น้อยมาก" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1141969149" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1141969149" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1141969149" value="3 = ทำได้บ่อยครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1141969149" value="3 = ทำได้บ่อยครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1141969149" value="4 = ทำได้ดีมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1141969149" value="4 = ทำได้ดีมาก" /></div>
                 </div>
               </div>
 
@@ -324,95 +324,95 @@ function index() {
               <div className="flex w-max mt-2 bg-gray-100 p-2">
                 <div className="flex items-center w-32">Communications: ความถูกต้อง ความเร็ว และความยากง่ายในการสื่อสารกันของบุคคล ทั้งภายในและภายนอก</div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.462727238" value="0 = ทำไม่ได้เลย" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.462727238" value="0 = ทำไม่ได้เลย" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.462727238" value="1 = ทำได้น้อยมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.462727238" value="1 = ทำได้น้อยมาก" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.462727238" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.462727238" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.462727238" value="3 = ทำได้บ่อยครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.462727238" value="3 = ทำได้บ่อยครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.462727238" value="4 = ทำได้ดีมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.462727238" value="4 = ทำได้ดีมาก" /></div>
                 </div>
               </div>
 
               <div className="flex w-max mt-2 bg-gray-100 p-2">
                 <div className="flex items-center w-32">Ownership: ความเป็นเจ้าของและรับผิดชอบกับงานของตัวเอง</div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1408296617" value="0 = ทำไม่ได้เลย" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1408296617" value="0 = ทำไม่ได้เลย" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1408296617" value="1 = ทำได้น้อยมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1408296617" value="1 = ทำได้น้อยมาก" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1408296617" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1408296617" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1408296617" value="3 = ทำได้บ่อยครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1408296617" value="3 = ทำได้บ่อยครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1408296617" value="4 = ทำได้ดีมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1408296617" value="4 = ทำได้ดีมาก" /></div>
                 </div>
               </div>
 
               <div className="flex w-max mt-2 bg-gray-100 p-2">
                 <div className="flex items-center w-32">Dependable: ความเชื่อใจ เมื่อมีการมอบหมายงานให้ สามารถเชื่อได้ว่างานจะเสร็จด้วยคุณภาพและเวลาที่ตกลงกันไว้</div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1062325162" value="0 = ทำไม่ได้เลย" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1062325162" value="0 = ทำไม่ได้เลย" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1062325162" value="1 = ทำได้น้อยมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1062325162" value="1 = ทำได้น้อยมาก" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1062325162" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1062325162" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1062325162" value="3 = ทำได้บ่อยครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1062325162" value="3 = ทำได้บ่อยครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1062325162" value="4 = ทำได้ดีมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1062325162" value="4 = ทำได้ดีมาก" /></div>
                 </div>
               </div>
 
               <div className="flex w-max mt-2 bg-gray-100 p-2">
                 <div className="flex items-center w-32">Team Work: ความสามารถทำงานร่วมกับผู้อื่น สามารถดึงเอาศักยภาพของผู้ร่วมทีมออกมา โดยคงบรรยากาศการทำงานที่ดีไว้</div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.107576699" value="0 = ทำไม่ได้เลย" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.107576699" value="0 = ทำไม่ได้เลย" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.107576699" value="1 = ทำได้น้อยมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.107576699" value="1 = ทำได้น้อยมาก" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.107576699" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.107576699" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.107576699" value="3 = ทำได้บ่อยครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.107576699" value="3 = ทำได้บ่อยครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.107576699_" value="4 = ทำได้ดีมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.107576699_" value="4 = ทำได้ดีมาก" /></div>
                 </div>
               </div>
 
               <div className="flex w-max mt-2 bg-gray-100 p-2">
                 <div className="flex items-center w-32">Leadership: คุณสมบัติการเป็นผู้นำ ได้แก่ มีความคิดริเริ่ม กล้าตัดสินใจ วางแผนดี มีวิสัยทัศน์ และรักษาคำพูด</div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1795713687" value="0 = ทำไม่ได้เลย" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1795713687" value="0 = ทำไม่ได้เลย" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1795713687" value="1 = ทำได้น้อยมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1795713687" value="1 = ทำได้น้อยมาก" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1795713687" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1795713687" value="2 = ทำได้บ้างเป็นบางครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1795713687" value="3 = ทำได้บ่อยครั้ง" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1795713687" value="3 = ทำได้บ่อยครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input className="" type="radio" className="w-6 h-6 " name="entry.1795713687" value="4 = ทำได้ดีมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1795713687" value="4 = ทำได้ดีมาก" /></div>
                 </div>
               </div>
 
