@@ -423,7 +423,7 @@ function index() {
               <textarea className="w-3/4  border-2 border-gray-400 rounded-lg bg-transparent h-32 quantumWizTextinputPapertextareaInput exportTextarea " placeholder="Your Answer" jsname="YPqjbf" data-rows="1"  aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" required dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.1786056676"></textarea>
             </div>
 
-            <h1>ส่วนที่ 2 :  วิเคราะห์ตัวเอง "เพื่อให้ทำงานได้อย่างมีความสุข/สนุก และได้ผลที่ดีขึ้น" ในปีนี้ </h1>
+            <h1>ส่วนที่ 2 : วิเคราะห์ตัวเอง &quot;เพื่อให้ทำงานได้อย่างมีความสุข/สนุก และได้ผลที่ดีขึ้น&quot; ในปีนี้ </h1>
 
             <div className="bg-transparent">
               <p>ในปีนี้ คุณยังอยากทำงานในบทบาทเดิมมั้ย ? ถ้าอยากปรับบทบาท อยากปรับอย่างไร ? เพิ่มหรือลดอะไร ?</p><p className="text-red-600">*</p>
