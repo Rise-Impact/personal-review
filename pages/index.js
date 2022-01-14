@@ -32,12 +32,13 @@ function index() {
               <br />อะไรที่ทำแล้วรู้สึกดี มีพลัง <br />หรือมีอะไรที่ทำให้รู้สึกอึดอัดบ้างหรือไม่
               เราอยากให้คุณช่วยตอบคำถามด้านล่างนี้
               เพื่อที่เราจะได้เรียนรู้ <br />และเติบโตไปด้วยกัน :)
-              </p>
+            </p>
           </div>
 
-
+          
 
           <form className=" justify-self-center  w-11/12 " action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc5-bsmsg4KJDmluRD_DbUBL0vH_he1Vz47M4fHt2a4W0hNGg/formResponse" method="post" >
+          <p className="text-red-600 justify-end" >* required</p><br />
             <div className="bg-transparent mb-10" >
               <h3>เพื่อนๆ เรียกคุณว่าอะไร</h3><p className="text-red-600">*</p>
               <input required type="text" className="  w-11/12 h-12 border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4   bg-transparent quantumWizTextinputPaperinputInput exportInput __web-inspector-hide-shortcut__" name="entry.2099007098" placeholder="Your Answer" />
@@ -53,68 +54,65 @@ function index() {
               <h3>บทบาทในทีม หากเทียบกับตำแหน่งในกีฬาฟุตบอลแล้ว คุณอยู่ในตำแหน่งใด ? เพราะอะไร ?</h3><p className="text-red-600">*</p>
               <textarea required className="w-11/12 h-16 border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent  quantumWizTextinputPapertextareaInput exportTextarea " placeholder="Your Answer" jsname="YPqjbf" data-rows="1" tabIndex="0" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.1665001835"></textarea>
             </div>
-              <center>
-            <div className="  bg-transparent mb-5 mt-5">
-              <h3>คุณรู้สึกภูมิใจในตัวเองระดับใด ?</h3>
-              <p className="text-red-600">*</p>
-              <div className="flex w-max" >
-                <div className="md:flex items-end hidden">ไม่ภูมิใจเลย</div>
+            <center>
+              <div className="  bg-transparent mb-5 mt-5">
+                <h3>คุณรู้สึกภูมิใจในตัวเองระดับใด ?</h3>
+                <p className="text-red-600">*</p>
+                <div className="flex w-max" >
+                  <div className="md:flex items-end hidden">ไม่ภูมิใจเลย</div>
 
-                <div className="grid grid-cols-1 grid-rows-2  w-8" >
+                  <div className="grid grid-cols-1 grid-rows-2  w-8" >
+                    <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
+                    <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className=" justify-self-center  w-6 h-6" type="radio" name="entry.1711959127" value="1" /></div>
+                  </div>
 
-                  <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className=" justify-self-center  w-6 h-6" type="radio" name="entry.1711959127" value="1" /></div>
+                  <div className="grid grid-cols-1 grid-rows-2  w-8" >
+                    <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="2">2</label></div>
+                    <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1711959127" value="2" /></div>
+                  </div>
 
+                  <div className="grid grid-cols-1 grid-rows-2  w-8" >
+                    <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="3">3</label></div>
+                    <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1711959127" value="3" /></div>
+                  </div>
 
+                  <div className="grid grid-cols-1 grid-rows-2  w-8" >
+                    <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="4">4</label></div>
+                    <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="4" /></div>
+                  </div>
+
+                  <div className="grid grid-cols-1 grid-rows-2  w-8" >
+                    <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="5">5</label></div>
+                    <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1711959127" value="5" /></div>
+                  </div>
+
+                  <div className="grid grid-cols-1 grid-rows-2  w-8" >
+                    <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="6">6</label></div>
+                    <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="6" /></div>
+                  </div>
+
+                  <div className="grid grid-cols-1 grid-rows-2  w-8" >
+                    <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="7">7</label></div>
+                    <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="7" /></div>
+                  </div>
+
+                  <div className="grid grid-cols-1 grid-rows-2  w-8" >
+                    <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="8">8</label></div>
+                    <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="8" /></div>
+                  </div>
+
+                  <div className="grid grid-cols-1 grid-rows-2  w-8" >
+                    <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="9">9</label></div>
+                    <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="9" /></div>
+                  </div>
+
+                  <div className="grid grid-cols-1 grid-rows-2  w-8" >
+                    <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="10">10</label></div>
+                    <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1711959127" value="10" /></div>
+                  </div>
+                  <div className="md:flex items-end hidden">ภูมิใจมากที่สุด</div>
                 </div>
-
-                <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                  <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="2">2</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1711959127" value="2" /></div>
-                </div>
-
-                <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                  <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="3">3</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1711959127" value="3" /></div>
-                </div>
-
-                <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                  <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="4">4</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="4" /></div>
-                </div>
-
-                <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                  <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="5">5</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1711959127" value="5" /></div>
-                </div>
-
-                <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                  <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="6">6</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="6" /></div>
-                </div>
-
-                <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                  <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="7">7</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="7" /></div>
-                </div>
-
-                <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                  <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="8">8</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="8" /></div>
-                </div>
-
-                <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                  <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="9">9</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6" type="radio" name="entry.1711959127" value="9" /></div>
-                </div>
-
-                <div className="grid grid-cols-1 grid-rows-2  w-8" >
-                  <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " htmlFor="10">10</label></div>
-                  <div className="grid grid-cols-1 grid-rows-1 p-1"><input className="justify-self-center w-6 h-6 " type="radio" name="entry.1711959127" value="10" /></div>
-                </div>
-                <div className="md:flex items-end hidden">ภูมิใจมากที่สุด</div>
               </div>
-            </div>
             </center>
 
 
@@ -232,11 +230,8 @@ function index() {
                     <div className="lg:flex items-end hidden ">ไม่ถนัด-ไม่ชอบ-ใช้เวลา</div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.1140167113" value="1" /></div>
-
-
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
@@ -299,8 +294,6 @@ function index() {
                   <div><textarea className="md:w-72 w-64  border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent h-24 quantumWizTextinputPapertextareaInput exportTextarea " jsname="YPqjbf" data-rows="1" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.1156266615" placeholder="Your Answer"></textarea></div>
                 </div>
               </div>
-
-
             </div>
 
             <div className="mb-4 bg-white  rounded-3xl shadow-xl p-1">
@@ -323,11 +316,8 @@ function index() {
                     <div className="lg:flex items-end hidden ">ไม่ถนัด-ไม่ชอบ-ใช้เวลา</div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.1481754467" value="1" /></div>
-
-
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
@@ -390,8 +380,6 @@ function index() {
                   <div><textarea className="md:w-72 w-64  border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent h-24 quantumWizTextinputPapertextareaInput exportTextarea " jsname="YPqjbf" data-rows="1" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.660729767" placeholder="Your Answer"></textarea></div>
                 </div>
               </div>
-
-
             </div>
 
             <div className="mb-4 bg-white  rounded-3xl shadow-xl p-1">
@@ -414,11 +402,8 @@ function index() {
                     <div className="lg:flex items-end hidden ">ไม่ถนัด-ไม่ชอบ-ใช้เวลา</div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.971341012" value="1" /></div>
-
-
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
@@ -481,8 +466,6 @@ function index() {
                   <div><textarea className="md:w-72 w-64  border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent h-24 quantumWizTextinputPapertextareaInput exportTextarea " jsname="YPqjbf" data-rows="1" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.131544969" placeholder="Your Answer"></textarea></div>
                 </div>
               </div>
-
-
             </div>
 
             <div className="mb-4 bg-white  rounded-3xl shadow-xl p-1">
@@ -505,11 +488,8 @@ function index() {
                     <div className="lg:flex items-end hidden ">ไม่ถนัด-ไม่ชอบ-ใช้เวลา</div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.142966751" value="1" /></div>
-
-
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
@@ -561,7 +541,6 @@ function index() {
                 </div>
               </div>
 
-
               <div className="lg:flex  flex-2col justify-center">
                 <div className="flex flex-col mr-4">
                   <div><label><br />ทำไมจึงรู้สึกแบบนั้น</label></div>
@@ -572,8 +551,6 @@ function index() {
                   <div><textarea className="md:w-72 w-64  border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent h-24 quantumWizTextinputPapertextareaInput exportTextarea " jsname="YPqjbf" data-rows="1" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.1997400371" placeholder="Your Answer"></textarea></div>
                 </div>
               </div>
-
-
             </div>
 
             <div className="mb-4 bg-white  rounded-3xl shadow-xl p-1">
@@ -596,11 +573,8 @@ function index() {
                     <div className="lg:flex items-end hidden ">ไม่ถนัด-ไม่ชอบ-ใช้เวลา</div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.1686160970" value="1" /></div>
-
-
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
@@ -652,7 +626,6 @@ function index() {
                 </div>
               </div>
 
-
               <div className="lg:flex  flex-2col justify-center">
                 <div className="flex flex-col mr-4">
                   <div><label><br />ทำไมจึงรู้สึกแบบนั้น</label></div>
@@ -663,8 +636,6 @@ function index() {
                   <div><textarea className="md:w-72 w-64  border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent h-24 quantumWizTextinputPapertextareaInput exportTextarea " jsname="YPqjbf" data-rows="1" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.53700437" placeholder="Your Answer"></textarea></div>
                 </div>
               </div>
-
-
             </div>
 
             <div className="mb-4 bg-white  rounded-3xl shadow-xl p-1">
@@ -676,7 +647,7 @@ function index() {
                   </div>
                   <div className="flex flex-col ">
                     <label>คุณใช้เวลากับงานนี้กี่เปอร์เซ็นต์จากงานทั้งหมด</label>
-                    <input className="w-64 h-20 border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4 bg-transparent  " placeholder="Your Answer" type="text" name="entry.288778624"/>
+                    <input className="w-64 h-20 border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4 bg-transparent  " placeholder="Your Answer" type="text" name="entry.288778624" />
                   </div>
                 </div>
               </div>
@@ -743,7 +714,6 @@ function index() {
                 </div>
               </div>
 
-
               <div className="lg:flex  flex-2col justify-center">
                 <div className="flex flex-col mr-4">
                   <div><label><br />ทำไมจึงรู้สึกแบบนั้น</label></div>
@@ -754,8 +724,6 @@ function index() {
                   <div><textarea className="md:w-72 w-64  border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent h-24 quantumWizTextinputPapertextareaInput exportTextarea " jsname="YPqjbf" data-rows="1" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.990347673" placeholder="Your Answer"></textarea></div>
                 </div>
               </div>
-
-
             </div>
 
             <div className="mb-4 bg-white  rounded-3xl shadow-xl p-1">
@@ -778,11 +746,8 @@ function index() {
                     <div className="lg:flex items-end hidden ">ไม่ถนัด-ไม่ชอบ-ใช้เวลา</div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.51211010" value="1" /></div>
-
-
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
@@ -834,7 +799,6 @@ function index() {
                 </div>
               </div>
 
-
               <div className="lg:flex  flex-2col justify-center">
                 <div className="flex flex-col mr-4">
                   <div><label><br />ทำไมจึงรู้สึกแบบนั้น</label></div>
@@ -845,8 +809,6 @@ function index() {
                   <div><textarea className="md:w-72 w-64  border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent h-24 quantumWizTextinputPapertextareaInput exportTextarea " jsname="YPqjbf" data-rows="1" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.326166688" placeholder="Your Answer"></textarea></div>
                 </div>
               </div>
-
-
             </div>
 
             <div className="mb-4 bg-white  rounded-3xl shadow-xl p-1">
@@ -869,11 +831,8 @@ function index() {
                     <div className="lg:flex items-end hidden ">ไม่ถนัด-ไม่ชอบ-ใช้เวลา</div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.721058992" value="1" /></div>
-
-
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
@@ -925,7 +884,6 @@ function index() {
                 </div>
               </div>
 
-
               <div className="lg:flex  flex-2col justify-center">
                 <div className="flex flex-col mr-4">
                   <div><label><br />ทำไมจึงรู้สึกแบบนั้น</label></div>
@@ -936,8 +894,6 @@ function index() {
                   <div><textarea className="md:w-72 w-64  border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent h-24 quantumWizTextinputPapertextareaInput exportTextarea " jsname="YPqjbf" data-rows="1" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.1334259990" placeholder="Your Answer"></textarea></div>
                 </div>
               </div>
-
-
             </div>
 
             <div className="mb-4 bg-white  rounded-3xl shadow-xl p-1">
@@ -960,11 +916,8 @@ function index() {
                     <div className="lg:flex items-end hidden ">ไม่ถนัด-ไม่ชอบ-ใช้เวลา</div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
-
                       <div className="grid grid-cols-1 grid-rows-1"><label className="justify-self-center " >1</label></div>
                       <div className="grid grid-cols-1 grid-rows-1 p-1" ><input className="justify-self-center w-6 h-6" type="radio" name="entry.1122187146" value="1" /></div>
-
-
                     </div>
 
                     <div className="grid grid-cols-1 grid-rows-2  w-8" >
@@ -1016,7 +969,6 @@ function index() {
                 </div>
               </div>
 
-
               <div className="lg:flex  flex-2col justify-center">
                 <div className="flex flex-col mr-4">
                   <div><label><br />ทำไมจึงรู้สึกแบบนั้น</label></div>
@@ -1027,18 +979,7 @@ function index() {
                   <div><textarea className="md:w-72 w-64  border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent h-24 quantumWizTextinputPapertextareaInput exportTextarea " jsname="YPqjbf" data-rows="1" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.1547469854" placeholder="Your Answer"></textarea></div>
                 </div>
               </div>
-
-
             </div>
-
-
-
-
-
-
-
-
-
 
             <div className=" mb-10 mt-10 ">
               <p>จากเกณฑ์ต่อไปนี้คุณให้คะแนนตัวเองระดับใด</p>
@@ -1050,7 +991,6 @@ function index() {
                 3 = ทำได้บ่อยครั้ง<br />
                 4 = ทำได้ดีมาก
               </p>
-
 
               <div className="flex bg-gray-100 p-2">
                 <div className="flex-none  items-center w-32"></div>
@@ -1185,7 +1125,6 @@ function index() {
                   <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.1795713687" value="4 = ทำได้ดีมาก" /></div>
                 </div>
               </div>
-
             </div>
 
             <div className="bg-transparent">
@@ -1194,7 +1133,6 @@ function index() {
             </div>
 
             <h1>ส่วนที่ 2 : วิเคราะห์ตัวเอง &quot;เพื่อให้ทำงานได้อย่างมีความสุข/สนุก และได้ผลที่ดีขึ้น&quot; ในปีนี้ </h1>
-
             <div className="bg-transparent">
               <p>ในปีนี้ คุณยังอยากทำงานในบทบาทเดิมมั้ย ? ถ้าอยากปรับบทบาท อยากปรับอย่างไร ? เพิ่มหรือลดอะไร ?</p><p className="text-red-600">*</p>
               <textarea className="w-3/4  border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent h-20 quantumWizTextinputPapertextareaInput exportTextarea " placeholder="Your Answer" jsname="YPqjbf" data-rows="1" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" required dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.1799784177"></textarea>
@@ -1209,24 +1147,13 @@ function index() {
               <p>คุณคิดว่า มีอะไรที่บริษัทสามารถช่วย support คุณ/ทีม เพื่อให้ทำงานได้อย่างสนุก/สบายใจ และได้ผลดีขึ้นได้อีกบ้าง ?</p><p className="text-red-600">*</p>
               <textarea className="w-3/4  border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4  bg-transparent h-20 quantumWizTextinputPapertextareaInput exportTextarea " placeholder="Your Answer" jsname="YPqjbf" data-rows="1" aria-label="Your answer" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" required dir="auto" data-initial-dir="auto" aria-labelledby="i39" aria-describedby="i40 i41" badinput="false" name="entry.497705480"></textarea>
             </div>
-
-
-
-
             <center><button className="mt-8 hover:bg-blue-900 h-12 w-32 bg-orange-600 text-gray-100 border-2 border-orange-600  rounded-3xl" type="submit">Submit</button></center>
           </form>
-
-
 
         </div>
       </div>
     </div>
   )
 }
-
-
-
-
-
 export default index
 
