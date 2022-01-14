@@ -1103,7 +1103,7 @@ function index() {
                   <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.107576699" value="3 = ทำได้บ่อยครั้ง" /></div>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-2  w-16 ml-4 " >
-                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.107576699_" value="4 = ทำได้ดีมาก" /></div>
+                  <div className="flex justify-center items-end" ><input type="radio" className="w-6 h-6 " name="entry.107576699" value="4 = ทำได้ดีมาก" /></div>
                 </div>
               </div>
 
