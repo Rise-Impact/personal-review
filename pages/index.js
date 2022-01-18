@@ -130,7 +130,7 @@ function index() {
                   </div>
                   <div className="flex flex-col ">
                     <label>คุณใช้เวลากับงานนี้กี่เปอร์เซ็นต์จากงานทั้งหมด</label>
-                    <input className="w-64 h-20 border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4 bg-transparent  " placeholder="Your Answer" type="text" name="entry.1915041039 " />
+                    <input className="w-64 h-20 border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4 bg-transparent  " placeholder="Your Answer" type="text" name="entry.1915041039" />
                   </div>
                 </div>
               </div>
@@ -219,7 +219,7 @@ function index() {
                   </div>
                   <div className="flex flex-col ">
                     <label>คุณใช้เวลากับงานนี้กี่เปอร์เซ็นต์จากงานทั้งหมด</label>
-                    <input className="w-64 h-20 border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4 bg-transparent  " placeholder="Your Answer" type="text" name="entry.2098581185 " />
+                    <input className="w-64 h-20 border-b-2 border-b-orange-600 focus:outline-none pl-4 pr-4 bg-transparent  " placeholder="Your Answer" type="text" name="entry.2098581185" />
                   </div>
                 </div>
               </div>
